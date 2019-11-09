@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/univiapro_ultra" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/univiapro_black" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/univiapro_bold" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/univiapro_medium" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/univiapro_regular" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/univiapro_book" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/univiapro_light" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/univiapro_ultralight" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/univiapro_thin" />
+
+    <!-- Italic -->
+    <font
+        android:fontStyle="italic"
+        android:fontWeight="400"
+        android:font="@font/univiapro_ultraitalic" />
+
+    <font
+        android:fontStyle="italic"
+        android:fontWeight="400"
+        android:font="@font/univiapro_blackitalic" />
+
+    <font
+        android:fontStyle="italic"
+        android:fontWeight="400"
+        android:font="@font/univiapro_bolditalic" />
+
+    <font
+        android:fontStyle="italic"
+        android:fontWeight="400"
+        android:font="@font/univiapro_mediumitalic" />
+
+    <font
+        android:fontStyle="italic"
+        android:fontWeight="400"
+        android:font="@font/univiapro_italic" />
+
+    <font
+        android:fontStyle="italic"
+        android:fontWeight="400"
+        android:font="@font/univiapro_bookitalic" />
+
+    <font
+        android:fontStyle="italic"
+        android:fontWeight="400"
+        android:font="@font/univiapro_lightitalic" />
+
+    <font
+        android:fontStyle="italic"
+        android:fontWeight="400"
+        android:font="@font/univiapro_ultralightitalic" />
+
+    <font
+        android:fontStyle="italic"
+        android:fontWeight="400"
+        android:font="@font/univiapro_thinitalic" />
+
+</font-family>
