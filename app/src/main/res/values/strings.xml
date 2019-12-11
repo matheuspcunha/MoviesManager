@@ -1,3 +1,21 @@
 <resources>
+
     <string name="app_name">Movies Manager</string>
+    <string name="title_add_movies">Adicionar Filmes</string>
+    <string name="title_saved_movies">Lista de Filmes</string>
+    <string name="movie_already_added">Este filme já está em sua lista, deseja remove-lo?</string>
+    <string name="movie_added">Adicionado a sua lista!</string>
+    <string name="movie_removed">Removido da sua lista!</string>
+    <string name="movie_watched">Já vi!</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="empty_field">Campo vazio.</string>
+    <string name="edit_name">Editar nome</string>
+    <string name="type_name">Digite seu nome</string>
+
+    <!--API KEYS-->
+    <string name="mdbAPIKey">564ecea917a6190b29fb74f0163a361b</string>
+    <string name="googleAPIKey">AIzaSyDvt1QYnRWKtEUg8xYskDVAb7JvszVQubA</string>
+
 </resources>

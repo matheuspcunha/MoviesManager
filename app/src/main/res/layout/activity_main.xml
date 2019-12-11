@@ -4,12 +4,33 @@
     android:layout_height="match_parent"
     android:background="@color/colorDarkGray">
 
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/menu"
+        android:layout_margin="20dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/unknown"
+        app:civ_border_width="0dp" />
+
     <TextView
         android:id="@+id/tv_user_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image"
         android:layout_centerHorizontal="true"
-        android:layout_margin="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="30dp"
         android:fontFamily="@font/univiapro_bold"
         android:text="Matheus Cunha"
         android:textColor="@android:color/white"
@@ -18,31 +39,22 @@
     <LinearLayout
         android:id="@+id/ll_movies_progress"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="50dp"
         android:layout_below="@+id/tv_user_name"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="5dp"
         android:background="@drawable/background_shape_gray"
         android:gravity="center_vertical"
-        android:orientation="vertical"
-        android:padding="10dp">
+        android:orientation="vertical">
 
         <TextView
+            android:id="@+id/watchedMovies"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:fontFamily="@font/univiapro_regular"
-            android:text="Filmes assistidos:    10/100"
-            android:textColor="@android:color/white"
-            android:textSize="15sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:fontFamily="@font/univiapro_regular"
-            android:text="Total de horas:   5h"
+            android:text="Filmes assistidos:    /"
             android:textColor="@android:color/white"
             android:textSize="15sp" />
     </LinearLayout>
@@ -55,8 +67,8 @@
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         android:background="@drawable/background_shape_gray"
-        android:orientation="horizontal"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
@@ -69,23 +81,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
             android:layout_gravity="end|center"
+            android:layout_margin="10dp"
             android:fontFamily="@font/univiapro_regular"
             android:text=">"
             android:textColor="@android:color/white"
             android:textSize="15sp" />
     </LinearLayout>
-
-    <TextView
-        android:layout_below="@+id/ll_see_lists"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="40dp"
-        android:fontFamily="@font/univiapro_regular"
-        android:text="Próximos Lançamentos"
-        android:textColor="@android:color/white"
-        android:textSize="17sp" />
 
 </RelativeLayout>
